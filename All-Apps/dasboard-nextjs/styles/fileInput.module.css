@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 615px;
+  padding: 10px;
+  border-radius: 8px;
+  color: gray;
+  background-color: white;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.container:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.fileInputBtn {
+  display: none;
+}
+
+.fileInputLabel {
+  margin-right: 5px;
+  cursor: pointer;
+}

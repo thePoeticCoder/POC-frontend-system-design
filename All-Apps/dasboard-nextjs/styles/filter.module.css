@@ -1,0 +1,79 @@
+.container {
+  margin: 0 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dropDownStyle {
+  font-size: 13px;
+  width: 165px;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px;
+}
+.dropDownOpenStyle {
+  font-size: 13px;
+  width: 165px;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px 8px 0 0;
+}
+.optionStyle {
+  color: white;
+  background-color: #859762;
+}
+
+.datePickerContainerBtn {
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+  background-color: #859762;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: max-content;
+  min-height: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datePickerContainerBtn p {
+  padding-left: 10px;
+}
+
+.searchFilterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navSearchContainer {
+  padding: 0.5rem 0;
+  width: 229px;
+  background-color: white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navSearchInput {
+  border: none;
+  border-radius: 3rem;
+  outline: none;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 8.55px;
+  width: 14px;
+  height: 14px;
+}

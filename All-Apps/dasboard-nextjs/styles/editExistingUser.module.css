@@ -1,0 +1,183 @@
+.container {
+    background-color: #f1f6eb;
+    padding: 0 20px 20px;
+    margin-top: 20px;
+    color: #053233;
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .editUserContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .inputNameContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    font-weight: bold;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+  }
+  .inputValueContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+    grid-template-columns: 1fr;
+  }
+  .fieldsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+  .submitBtnContainer {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  .inputBox {
+    position: relative;
+  }
+  .toggleEye {
+    size: 15px;
+    right: 10px;
+    color: #053233;
+    top: 10px;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .inputLabel {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .userAccessSubmitButton {
+    background-color: #f9cd63;
+    color: #053233;
+    height: 35px;
+    width: 100px;
+    /* margin-top: 200px; */
+  }
+  
+  .userList {
+    width: 100%;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .Tick {
+    align-items: center;
+    margin-left: 40px;
+    height: 170px;
+    width: 170px;
+  
+  }
+  
+  .mailSentSuccessfullyText {
+  
+    text-align: center;
+    margin-top: 76px;
+  margin-left:6px;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.0015em;
+    color: #003032;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+  }
+  .userCannotAdded{
+    color: #003032;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    mix-blend-mode: normal;
+    display: flex;
+    margin-top: 190px;
+  margin-left: 90px;
+  
+  }
+  .ModalStyle {
+    align-items: center;
+  }
+  
+  .editIcons {
+    left:10px;
+    size: 22px;
+    position: relative;
+  }
+  
+  .emailCantChangeText {
+    position: absolute;
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.0025em;
+    color: #053233;
+  }
+  .inCorrectEmailWarning {
+    padding-top: 2px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.0025em;
+    color: rgb(149, 36, 36)
+  }
+  .inCorrectPhoneWarning{
+    padding-top: 2px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.0025em;
+    color: rgb(149, 36, 36)
+  }
+  .inCorrectNameWarning{
+    padding-top: 2px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.0025em;
+    color: rgb(149, 36, 36)
+  
+  }
+  

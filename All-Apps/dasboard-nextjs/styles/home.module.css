@@ -1,0 +1,47 @@
+.accordionContainer > * {
+  padding: 0 25px 0 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.headerAlignLeft {
+  position: absolute;
+  z-index: 2;
+}
+
+.accordionContainer > :first-child {
+  margin: 3rem 0 0;
+}
+
+.accordionContainer > :nth-child(2) {
+  margin: 1rem 0;
+}
+.link {
+  color: #053233;
+}
+
+.navSearchContainer {
+  padding: 0.5rem 0;
+  width: 229px;
+  background-color: white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navSearchInput {
+  border: none;
+  border-radius: 3rem;
+  outline: none;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 8.55px;
+  width: 14px;
+  height: 14px;
+}

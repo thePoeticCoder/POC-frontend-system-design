@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #053233;
+  padding: 25px 0 25px 0;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  position: relative;
+}
+
+.accordionHeader {
+  position: absolute;
+  right: 3.5rem;
+  top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rightHeadingContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+}
+
+.dateRangePicker {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tableHeadRow {
+  background-color: #1d4846;
+  color: white;
+  border-radius: 10px;
+}
+
+.tableBodyRow {
+  color: #053233;
+}
+
+.tableHeadRow > th {
+  padding: 12px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+  user-select: none;
+}
+
+.tableBodyRow > td {
+  padding: 18px 12px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+
+.tableBody > .tableBodyRow {
+  border-bottom: 1px solid #859762;
+}
+
+.tableBody > .tableBodyRow:last-child {
+  border: none;
+  border-bottom: 0px;
+}
+
+.sortableHeading {
+  cursor: pointer;
+  user-select: none;
+  column-gap: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+.accordionTitle {
+  min-width: max-content;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+}
+
+.table th:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.table th:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding-left: 2rem;
+}
+
+.link {
+  color: #23a2ea;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.statusBadge {
+  width: 8px;
+  height: 8px;
+}
+.pendingStatusColor {
+  background-color: #ff7056;
+}
+.approveStatusColor {
+  background-color: #b9d09b;
+}
+
+.datePickerContainer {
+  position: absolute;
+  z-index: 2;
+  /* top: 0; */
+  left: -20px;
+}
+
+.datesContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.openAccordionBgColor {
+  background-color: #f1f6eb;
+}
+
+.closeAccordionBgColor {
+  background-color: #b9d09b;
+}

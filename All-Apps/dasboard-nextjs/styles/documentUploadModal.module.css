@@ -1,0 +1,155 @@
+.container {
+  background-color: white;
+  position: relative;
+  padding: 40px;
+  max-width: 100%;
+  width: 467px;
+  border-radius: 8px;
+}
+
+.fileViewContainer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0.8rem 0 0;
+}
+
+.fileViewContainerAdditionalDoc {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2.7rem 0 0;
+}
+
+.documentNameFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileInputContainer:nth-child(n + 3) {
+  margin-top: 1rem;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.8rem;
+}
+
+.crossBtn {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.deleteIcon {
+  width: 1.5rem;
+  height: 3rem;
+  color: #ff7056;
+  cursor: pointer;
+}
+
+.modalFileInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: gray;
+  font-size: 14px;
+  user-select: none;
+  background-color: #f9eddc;
+  cursor: pointer;
+  width: 95%;
+  max-width: 100%;
+}
+
+.subContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+.errorMsg {
+  color: #ff7056;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.inputErrorMsg {
+  margin: 3px 0 0 5px;
+  color: #ff7056;
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 90%;
+  overflow-wrap: break-word;
+}
+
+.fileNameContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form input {
+  flex-grow: 1;
+}
+
+.fileNameContainer button {
+  border: none;
+  background-color: transparent;
+}
+
+.crossBtn {
+  cursor: pointer;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.formAddBtn {
+  background-color: #f9cd63;
+  padding: 0.5rem 1rem;
+  font-weight: normal;
+}
+
+.formCancelBtn {
+  background-color: #ff7056;
+  padding: 0.5rem 1rem;
+  font-weight: normal;
+}
+
+.submitBtn {
+  align-self: flex-end;
+  background-color: #f9cd63;
+  margin-top: 1rem;
+  padding: 1.5rem 4rem;
+}

@@ -1,0 +1,67 @@
+export const sectionCFormsData = [
+  {
+    name: 'bankDetails.bankName',
+    type: 'select',
+    label: 'Bank Name:',
+    isViewOnly: false,
+    isHide: false,
+    options: [
+      { key: 'BOB', value: 'BOB' },
+      { key: 'SBI', value: 'SBI' },
+      { key: 'HDFC', value: 'HDFC' },
+    ],
+  },
+  {
+    name: 'bankDetails.ifscCode',
+    type: 'text',
+    label: 'IFSC Code:',
+    isViewOnly: false,
+    isHide: false,
+  },
+  {
+    name: 'bankDetails.bankBranch',
+    type: 'text',
+    label: 'Bank Branch:',
+    isViewOnly: false,
+    isHide: false,
+  },
+  {
+    name: 'bankDetails.micrCode',
+    type: 'text',
+    label: 'MICR Code:',
+    isViewOnly: false,
+    isHide: false,
+  },
+  {
+    name: 'bankDetails.accountType',
+    type: 'select',
+    label: 'Account Type:',
+    isViewOnly: false,
+    isHide: false,
+    options: [
+      { key: 'Savings account', value: 'SAVINGS' },
+      { key: 'Current account', value: 'CURRENT' },
+    ],
+  },
+  {
+    name: 'bankDetails.cancelChequeNo',
+    type: 'number',
+    label: 'Cancel Cheque no:',
+    isViewOnly: false,
+    isHide: false,
+  },
+  {
+    name: 'bankDetails.accountNo',
+    type: 'number',
+    label: 'Account No:',
+    isViewOnly: false,
+    isHide: false,
+  },
+  {
+    name: 'bankDetails.UpiID',
+    type: 'text',
+    label: 'UPI ID:',
+    isViewOnly: false,
+    isHide: false,
+  },
+]

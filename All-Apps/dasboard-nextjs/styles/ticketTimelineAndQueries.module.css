@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  column-gap: 20px;
+  margin-top: 15px;
+}
+
+.container > * {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.customerTimeline {
+  background-color: #f1f6eb;
+}
+
+.queries {
+  background-color: #b9d09b;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.detailCardsContainer{
+    padding-left: 15px;
+}

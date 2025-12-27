@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:Slab,wght@300,400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  font-family: Roboto;
+  scroll-behavior: smooth;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.m-auto {
+  margin: auto;
+}
+.ml-3 {
+  margin-left: 3px;
+}
+.alignCenterContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.reset-btn-style {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.emptyMsg {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.errorMsg {
+  text-align: center;
+  font-size: 1.3rem;
+  color: red;
+}
+.link-text-color {
+  color: #003032;
+}
+.loadingMsg {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.dropDownStyle {
+  font-size: 13px;
+  width: 165;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px;
+}
+.dropDownOpenStyle {
+  font-size: 13px;
+  width: 165;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px 8px 0 0;
+}
+.optionStyle {
+  color: white;
+  background-color: #859762;
+}
+.layout {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 20% 80%;
+}
+
+.content {
+  margin: 0 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #053233;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 48, 50, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  z-index: 999;
+  position: relative;
+}
+
+/* datepicker styles */
+
+.rdp {
+  color: #003032 !important;
+  background-color: #fbfbf6 !important;
+  --rdp-cell-size: 40px !important;
+  --rdp-accent-color: #859862 !important;
+  --rdp-background-color: #e3ebd2 !important;
+  /* Outline border for focused elements */
+  --rdp-outline: none !important;
+  padding: 20px 20px 0 20px;
+  margin: 0 !important;
+  border-radius: 8px;
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_start:not(.rdp-day_range_end),
+.rdp:not([dir='rtl']) .rdp-day_range_end:not(.rdp-day_range_start) {
+  background-color: #859862 !important;
+}
+
+.rdp-day_selected:not([disabled]) {
+  background-color: #e3ebd2 !important;
+  color: #003032 !important;
+  border-radius: 50% !important;
+}
+
+/* .rdp-row > .rdp-cell:first-child > .rdp-day_selected {
+  border-radius: 50% 0 0 50%;
+}
+
+.rdp-row > .rdp-cell:last-child > .rdp-day_selected {
+  border-radius: 0 50% 50% 0;
+} */

@@ -1,0 +1,122 @@
+.container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 60% 40%;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.pdfModalContainer {
+  border: 1px solid red;
+  padding: 3rem 3rem 2rem 1rem;
+  max-height: 50vh;
+  width: 40rem;
+  max-width: 100%;
+}
+
+.pdfDataContainer {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.downloadBtn {
+  background-color: #f9cd63;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+
+.submitBtn {
+  background-color: #f9cd63;
+  color: #053233;
+  height: 81px;
+  font-size: 20px;
+}
+
+.docTitle{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.errorMsg {
+  color: #ff7056;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.processBtn {
+  background-color: gainsboro;
+  height: 81px;
+  font-size: 20px;
+}
+
+.submitBtn {
+  background-color: #f9cd63;
+  color: #053233;
+  height: 81px;
+  font-size: 20px;
+}
+
+.pdfDocContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paymentDetailsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdfContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.pdfContainer > * {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin: 20px 0;
+}
+
+.alignTextCenter {
+  text-align: center;
+}
+
+.badgeContainer {
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.approveBadgeStyle {
+  background-color: #859862;
+  color: white;
+}
+
+.rejectedBadgeStyle {
+  background-color: #ff7056;
+  color: white;
+}
+
+.pendingBadgeStyle {
+  background-color: #fbce60;
+  color: white;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}

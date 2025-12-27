@@ -1,0 +1,82 @@
+.container {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 250px;
+  /* background-color: #b9d09b; */
+  background-color: white;
+  color: #053233;
+  padding: 20px 0 12px;
+  border-radius: 8px;
+  z-index: 3;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.singleNotificationContainer {
+  margin: 10px 15px;
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid white; */
+  border-bottom: 1px solid gray;
+  display: flex;
+  cursor: pointer;
+}
+
+.notificationType {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 15px 15px;
+}
+
+.notificationHeading {
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.notificationContent {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(5, 50, 51, 0.8);
+}
+
+.notificationContent p {
+  text-align: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.linkContainer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 11px;
+  /* margin-top: 16px; */
+}
+
+.link {
+  text-decoration: none;
+  color: #053233;
+}
+
+.mailIcon {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform: scale(0.6);
+}
+
+.emptyContent {
+  text-align: center;
+  padding-bottom: 1rem;
+}

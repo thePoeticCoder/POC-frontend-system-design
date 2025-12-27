@@ -1,0 +1,38 @@
+.inputContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.input[type='text'],
+.input[type='select'] {
+  outline: none;
+}
+.inputContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input {
+  width: 208px;
+  background: transparent;
+}
+
+.errorMessage {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.0025em;
+  height: 12px;
+  color: #ff7056;
+  margin-top: 5px;
+}
+.normalBorder {
+  border: 1px solid #9d9d9d;
+}
+.errorBorder {
+  border: 1px solid #ff7056;
+}

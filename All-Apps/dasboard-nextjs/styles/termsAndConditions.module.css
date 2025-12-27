@@ -1,0 +1,17 @@
+.container {
+  color: #1d4846;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 15%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.heading {
+  font-size: 44px;
+  font-weight: 500;
+}

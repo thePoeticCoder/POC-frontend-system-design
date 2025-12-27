@@ -1,0 +1,26 @@
+.container {
+  margin: 0 0 25px;
+  color: #1d4846;
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+
+.headSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.time {
+  color: white;
+  font-size: 14px;
+}
+
+.content {
+  font-size: 14px;
+}

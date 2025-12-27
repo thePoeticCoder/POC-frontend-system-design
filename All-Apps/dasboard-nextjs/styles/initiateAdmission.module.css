@@ -1,0 +1,126 @@
+.container {
+  background-color: #f9eddc;
+  color: #053233;
+  border-radius: 8px;
+  padding: 16px 37px;
+  margin: 50px 0 0;
+}
+
+.fileViewContainer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0.7rem 0 0;
+}
+
+.datePickerContainer {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  z-index: 2;
+}
+
+.dateInputContainer {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 1rem;
+  font-size: 14px;
+  width: 620px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.formFileInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  color: gray;
+  font-size: 14px;
+  user-select: none;
+  background-color: white;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .3rem .7rem 0 0;
+}
+
+.errorMsg {
+  margin: 3px 0 0 5px;
+  color: #ff7056;
+  font-size: 1rem;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.inputErrorMsg {
+  margin: 3px 0 0 5px;
+  color: #ff7056;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.formContainer {
+  max-width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputsContainer {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.submitContainer {
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+
+.submitBtn {
+  background-color: #f9cd63;
+  width: 173px;
+  height: 57px;
+}
+
+.submitBtn:disabled {
+  cursor: not-allowed;
+}
+
+.submitBtn {
+  background-color: #f9cd63;
+  width: 173px;
+  height: 57px;
+}
+
+.submitBtn:disabled {
+  cursor: not-allowed;
+}
+
+.crossBtn {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}

@@ -1,0 +1,44 @@
+.container {
+  margin: 20px 0;
+  position: relative;
+}
+
+.heading {
+  background-color: #b9d09b;
+  color: #053233;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.dataContainer {
+  background-color: #859762;
+  color: white;
+}
+
+/* padding for data-container. */
+.padding {
+  padding: 15px 0;
+}
+
+.questionContainer {
+  padding: 15px;
+}
+
+.question {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.answer {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.iconContainer {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container label {
+  margin-right: 42px;
+  width: 129px;
+  font-weight: bold;
+}
+
+.multiselectDropdown > * {
+  width: 20rem;
+}

@@ -1,0 +1,21 @@
+.Tick {
+    height: 170px;
+    width: 170px;
+    margin-left: 130px;
+    margin-top: 70px;
+  }
+  
+  .mailSentSuccessfullyText {
+    text-align: center;
+    margin-top: 46px;
+    margin-left: 99px;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.0015em;
+    color: #003032;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+  }

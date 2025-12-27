@@ -1,0 +1,62 @@
+.container {
+  background-color: #f1f6eb;
+  color: #053233;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.primaryContactsContainer {
+  border-bottom: 1px solid #9d9d9d;
+  padding-bottom: 30px;
+}
+
+.secondaryContactsContainer {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  /* margin-top: 20px; */
+  height: 100%;
+}
+
+.primaryContactsContainer > *,
+.secondaryContactsContainer > * {
+  padding-left: 20px;
+}
+
+.contactContainer {
+  display: flex;
+}
+.secondaryContactsContainer div:first-child {
+  padding-bottom: 15px;
+}
+
+.secondaryContactsContainer div:nth-child(2) {
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+
+.contactIcon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.birds {
+  position: fixed;
+  bottom: 7%;
+  right: 3%;
+}

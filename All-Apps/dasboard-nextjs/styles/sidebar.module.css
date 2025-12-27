@@ -1,0 +1,82 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: max-content;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f1f6eb;
+  padding: 46px 0 12px 53px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 175px;
+  height: 49px;
+  position: relative;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+.kenkoLogo {
+  width: 103.38px;
+  height: 24px;
+  position: relative;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #9d9d9d;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px 6px 0;
+  margin: 10px 0;
+}
+
+.sideBarIcon {
+  margin-right: 10px;
+}
+
+.container > a {
+  text-decoration: none;
+  color: #9d9d9d;
+  margin-left: 1rem;
+}
+
+.container > ul > li {
+  list-style: none;
+  /* padding: 1rem 95px 1rem 0; */
+}
+
+.linksContainer {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  /* margin: 0 1rem; */
+  width: 100%;
+}
+
+.version {
+  text-align: center;
+  opacity: .5;
+  margin: 1.2rem 0 0 1rem;
+}
+
+.activeLink {
+  color: #1d4846;
+  border-right: 3px solid #1d4846;
+  /* filter: invert(24%) sepia(23%) saturate(958%) hue-rotate(128deg)
+    brightness(89%) contrast(92%); */
+}
+
+.notificationBadge {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 10px;
+}

@@ -1,0 +1,20 @@
+.mainContainer {
+  position: relative;
+}
+
+.disableContainer {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mainContainer p {
+  user-select: none;
+}
+
+.calendarIconContainer {
+  cursor: pointer;
+}
+
+.date {
+  color: black;
+}

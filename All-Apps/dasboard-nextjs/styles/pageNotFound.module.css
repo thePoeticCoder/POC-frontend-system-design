@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.homeLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13.5426px 18.0568px;
+  gap: 4.51px;
+  width: 231.38px;
+  height: 30.27px;
+  border: 1.12855px solid rgba(0, 48, 50, 0.7);
+  border-radius: 12.8544px;
+  margin-top: 7px;
+}
+.homeLink a {
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22.4951px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: rgba(0, 48, 50, 0.8);
+}

@@ -1,0 +1,40 @@
+.container {
+  background-color: #f9eddc;
+  color: #1d4846;
+  padding: 25px 20px;
+  border-radius: 8px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.datesContainer {
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.verticalLine {
+  background: #9d9d9d;
+  width: 1.5px;
+  margin: 0 20px 0 27px;
+}
+
+.editIcon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}

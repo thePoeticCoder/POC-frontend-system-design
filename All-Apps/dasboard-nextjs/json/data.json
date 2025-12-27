@@ -1,0 +1,78 @@
+{
+  "termsNote":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam aspernatur optio qui ex deserunt!",
+  "termsHeader":"Terms and condition : ",
+  "firstTerm":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut atperspiciatis saepe dolor voluptatibus similique corporis nisi! Consequuntur, mollitia.",
+  "secondTerm":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut at perspiciatis saepe dolor voluptatibus similique corporis nisi! Consequuntur, mollitia. ",
+  "contactDetails":[
+  {
+    "name": "Ramesh Mahajan", 
+    "title": "KAM contact details",
+    "email": "Rameshmahajan@kenkoindia.in",
+    "number": "+91 8726343235"
+  },
+  {
+    "name": "Ramesh Mahajan",
+    "title": "Manager 2 details",
+    "email": "Rameshmahajan@kenkoindia.in",
+    "number": "+91 8726343235"
+  },
+  {
+    "name": "Ramesh Mahajan",
+    "title": "Manager 3 details",
+    "email": "Rameshmahajan@kenkoindia.in",
+    "number": "+91 8726343235"
+  }
+  ],
+  "questions":[{
+    "heading": "Heading 1",
+    "questions": [
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      },
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      }
+    ]
+  },
+  {
+    "heading": "Heading 2",
+    "questions": [
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      },
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      }
+    ]
+  },
+  {
+    "heading": "Heading 3",
+    "questions": [
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      },
+      {
+        "question":
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos?",
+        "answer":
+          " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos libero consequatur iste dicta maiores porro pariatur recusandae ad deleniti autem!"
+      }
+    ]
+  }
+  ]
+}

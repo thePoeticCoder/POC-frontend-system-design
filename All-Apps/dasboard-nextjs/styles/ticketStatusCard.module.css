@@ -1,0 +1,44 @@
+.container {
+  border-radius: 8px;
+  color: white;
+  display: flex;
+}
+
+.iconContainer {
+  font-weight: 700;
+  font-size: 65px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.secondaryContainer {
+  padding: 20px 38px;
+}
+
+.statusText {
+  font-size: 20px;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.topStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+  column-gap: 75px;
+}
+
+.pendingIconContainer {
+  background-color: #f4674d;
+}
+
+.successIconContainer {
+  background-color: #859762;
+}

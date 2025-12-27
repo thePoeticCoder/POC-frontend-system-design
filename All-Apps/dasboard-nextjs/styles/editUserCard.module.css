@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  background-color: #b9d09b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.actionIcons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+
+.userName{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.modalFileInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  color: gray;
+  font-size: 14px;
+  user-select: none;
+  background-color: #f9eddc;
+  cursor: pointer;
+  width: 95%;
+  max-width: 100%;
+}
+
+.formFileInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  color: gray;
+  font-size: 14px;
+  user-select: none;
+  background-color: white;
+  cursor: pointer;
+  width: 95%;
+  max-width: 100%;
+}
+
+.fileInputBtn {
+  display: none;
+}

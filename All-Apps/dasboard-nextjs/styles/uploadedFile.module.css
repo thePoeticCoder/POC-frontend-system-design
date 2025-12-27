@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #003032;
+}
+
+.container p {
+  padding-left: 1rem;
+}

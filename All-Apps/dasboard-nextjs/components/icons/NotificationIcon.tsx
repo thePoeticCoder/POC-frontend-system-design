@@ -1,0 +1,27 @@
+import { IconType } from '../../types'
+
+const NotificationIcon = ({ height, width, color, className }: IconType) => {
+  return (
+    <svg
+      className={className}
+      width={width}
+      height={height}
+      viewBox='0 0 15 19'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M7.5 18.6404C8.53125 18.6404 9.375 17.7943 9.375 16.7601H5.625C5.625 17.7943 6.46875 18.6404 7.5 18.6404ZM13.125 12.9997V8.2992C13.125 5.41308 11.5969 2.99702 8.90625 2.35775V1.71848C8.90625 0.938189 8.27812 0.308319 7.5 0.308319C6.72188 0.308319 6.09375 0.938189 6.09375 1.71848V2.35775C3.4125 2.99702 1.875 5.40368 1.875 8.2992V12.9997L0 14.8799V15.82H15V14.8799L13.125 12.9997ZM11.25 13.9398H3.75V8.2992C3.75 5.96775 5.16563 4.06874 7.5 4.06874C9.83438 4.06874 11.25 5.96775 11.25 8.2992V13.9398Z'
+        fill={color}
+      />
+    </svg>
+  )
+}
+
+NotificationIcon.defaultProps = {
+  width: 15,
+  height: 15,
+  color: 'green',
+}
+
+export default NotificationIcon

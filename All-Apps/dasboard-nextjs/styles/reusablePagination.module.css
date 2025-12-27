@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pageDetails {
+  margin-right: 1.125rem;
+  font-weight: 400;
+  color: #053233;
+}
+
+.pageNumber,
+.button {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.pageNumber {
+  color: #9d9d9d;
+}
+
+.button:disabled {
+  color: #9d9d9d;
+  cursor: not-allowed;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.active {
+  color: #053233;
+}

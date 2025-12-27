@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    cursor: pointer;
+    width: 165px;
+  }
+  
+  .customSelect {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropDownOption {
+    user-select: none;
+  }
+  
+  .options {
+    padding: 8px;
+    cursor: pointer;
+    margin: 100px;
+  }
+  
+  .dropDownBtn {
+    padding: 8px;
+    border-radius: 8px;
+    min-height: 16px;
+    user-select: none;
+    font-weight: 500;
+  }
+  
+  .optionsContainer {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    font-weight: 500;
+  }
+  
+  .optionsContainer > :first-child {
+    border-top: 1px solid white;
+  }
+  
+  .optionsContainer > * {
+    border-bottom: 1px solid white;
+    padding: 8px;
+  }
+  
+  .optionsContainer > :last-child {
+    border-bottom: none;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+  }
+  

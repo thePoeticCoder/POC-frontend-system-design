@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 20px 40px;
+}
+
+.timeContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.completed {
+  border-left: 2px dotted #859762;
+}
+
+.pending {
+  border-left: 2px dotted #9d9d9d;
+  color: #9d9d9d;
+}
+
+.badge {
+  position: absolute;
+  left: -12px;
+  top: 0;
+}
+
+.noBorder {
+  border: none;
+}

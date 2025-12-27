@@ -1,0 +1,65 @@
+.container {
+  height: 100%;
+  background-color: #f1f6eb;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.headingContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.headingContainer > * {
+  padding: 20px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.activeHeading {
+  background-color: #b9d09b;
+}
+
+/* .notificationsContainer > :last-child{
+  border: none;
+} */
+
+.notificationContainer {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 1px solid #000000;
+}
+
+.notificationTime {
+  display: flex;
+  color: #9d9d9d;
+}
+
+.notificationTime > * {
+  margin: 0 15px;
+}
+
+.notificationBadge {
+  height: 15px;
+  width: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.notificationMessage {
+  color: '#1D4846';
+  font-size: 1.25rem;
+}

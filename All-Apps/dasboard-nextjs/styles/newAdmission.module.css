@@ -1,0 +1,84 @@
+.container {
+  background-color: #f1f6eb;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.searchContainer {
+  max-width: 100%;
+}
+
+.searchResultContainer {
+  position: absolute;
+  margin-top: 0.3rem;
+  background-color: white;
+  width: 650px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #e3ebd2;
+  border-radius: 8px;
+}
+
+.searchResultContainer p:first-child {
+  padding: 1rem 0 1rem 19px;
+}
+
+.searchResultContainer p {
+  padding: 0.8rem 0 1rem 19px;
+}
+
+.userName:hover {
+  background-color: #e3ebd2;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.largeSearchContainer {
+  width: 650px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+  color: #9d9d9d;
+  border: 1px solid rgba(0, 48, 50, 0.2);
+}
+
+.largeSearchInput {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 0.8rem 1rem;
+  font-size: 15px;
+  background-color: white;
+}
+
+.largeSearchIcon {
+  position: absolute;
+  right: 8.55px;
+  width: 19.04px;
+  height: 20.06px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 28px;
+  margin: 21px 0 18px 0;
+}
+
+.emptyMsgContainer {
+  margin-top: 3rem;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}

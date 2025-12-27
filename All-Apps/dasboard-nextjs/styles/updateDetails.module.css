@@ -1,0 +1,94 @@
+.container {
+  background-color: #f1f6eb;
+  color: #1d4846;
+  border-radius: 8px;
+  padding: 30px 0 30px 20px;
+  margin-top: 20px;
+}
+
+.heading {
+  margin-bottom: 15px;
+}
+
+.sectionHeading {
+  margin: 30px 0;
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sectionSubHeading {
+  margin: 20px 0 15px;
+  font-weight: bold;
+}
+
+.gridSectionContainer {
+  display: grid;
+  grid-template-columns: 46% 48%;
+  column-gap: 35px;
+}
+
+.gridSectionContainer > label {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.gridSectionContainer > label > p {
+  /* border: 1px solid red; */
+  /* width: 160px;
+  margin-right: 80px; */
+  width: 245px;
+}
+
+.gridSectionContainer > label:nth-child(1),
+.gridSectionContainer > label:nth-child(2) {
+  margin-top: 0;
+}
+
+.gridSectionContainer > label:nth-last-child(2),
+.gridSectionContainer > label:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.gridSectionContainer > label:nth-child(even) > p {
+  width: 175px;
+  margin-right: 80px;
+}
+
+.threeSectionGridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+}
+
+.threeSectionGridContainer > label {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.threeSectionGridContainer > label > p {
+  width: 80px;
+  margin-right: 40px;
+}
+
+.errorMsg {
+  color: #ff7056;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.submitBtn {
+  padding: 17px 46px;
+  background: #f9cd63;
+  border-radius: 8px;
+}

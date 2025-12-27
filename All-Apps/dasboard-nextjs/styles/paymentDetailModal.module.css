@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  width: 450px;
+  max-width: 100%;
+  padding: 30px 44px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 50px;
+  width: 100%;
+  margin-top: 2.7rem;
+}
+
+.dataContainer > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.dataContainer > div > div > p:first-child {
+  margin-bottom: 5px;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.key {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9d9d9d;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 34px;
+  right: 29px;
+  cursor: pointer;
+}

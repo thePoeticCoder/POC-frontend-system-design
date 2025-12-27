@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13.5426px 18.0568px;
+  gap: 4.51px;
+  border: 1.12855px solid rgba(0, 48, 50, 0.7);
+  border-radius: 12.8544px;
+  cursor: pointer;
+}
+.btnContainer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.4951px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: rgba(0, 48, 50, 0.8);
+}

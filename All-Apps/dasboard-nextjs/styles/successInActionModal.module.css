@@ -1,0 +1,33 @@
+.Tick {
+  justify-content: center;
+  display: flex;
+  margin-left: 74px;
+  height: 170px;
+  width: 170px;
+}
+.closeIcon {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  cursor: pointer;
+}
+.successfullyText {
+
+  font-family: 'Roboto';
+  margin-left: 24px;
+text-align: center;
+  letter-spacing: 0.0015em;
+  color: #003032;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+  background-color: white;
+  position: relative;
+  padding: 40px;
+  width: 312px;
+  height: 206px;
+  border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+.container {
+  margin-left: 2rem;
+}
+
+.table,
+.table td,
+.table th {
+  border: 1px solid black;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem 1rem;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.title {
+  margin: 1rem 0;
+}

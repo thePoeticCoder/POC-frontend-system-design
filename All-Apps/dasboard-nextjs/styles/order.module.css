@@ -1,0 +1,41 @@
+.userName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.backLink {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.dropDownStyle {
+  font-size: 13px;
+  width: 250px;
+  max-width: 100%;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px;
+}
+
+.planDisplayName {
+  color: white;
+  background-color: #859762;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.dropDownOpenStyle {
+  font-size: 13px;
+  width: 250px;
+  max-width: 100%;
+  color: white;
+  background-color: #859762;
+  border-radius: 8px 8px 0 0;
+}
+.optionStyle {
+  color: white;
+  background-color: #859762;
+}

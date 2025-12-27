@@ -1,0 +1,14 @@
+.container {
+  background-color: #b9d09b;
+  color: #053233;
+  width: fit-content;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.userProfile img {
+  border-radius: 50%;
+}

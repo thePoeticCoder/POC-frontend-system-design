@@ -1,0 +1,29 @@
+.container {
+  background-color: #f1f6eb;
+  color: #053233;
+  padding: 30px 25px;
+  border-radius: 8px;
+  position: relative;
+  max-height: max-content;
+  margin: 15px 0;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.editIcon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.container > :first-child {
+  margin: 0 0 20px;
+}
+
+.container div:nth-child(n + 3) {
+  margin-top: 0.4rem;
+}

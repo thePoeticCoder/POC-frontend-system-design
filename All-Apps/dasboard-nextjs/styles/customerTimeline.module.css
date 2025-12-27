@@ -1,0 +1,148 @@
+.container {
+  padding: 1.25rem 1.5rem;
+  background-color: #f1f6eb;
+  border-radius: 0.5rem;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.0025em;
+  color: #053233;
+  padding-bottom: 1rem;
+}
+
+.timelineContainer,
+.timelineMinorContainer {
+  display: grid;
+  grid-template-columns: max-content auto;
+  column-gap: 0.8rem;
+}
+
+.timelineMinorContainer {
+  column-gap: 0rem;
+}
+
+.title {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.0025em;
+  color: #003032;
+}
+
+.accordionContainer {
+  background-color: #ffffff !important;
+  padding: 0rem 1.18rem 1rem 1.18rem;
+  box-shadow: 0px 3px 1px rgba(123, 123, 123, 0.12),
+    0px 1px 5px rgba(123, 123, 123, 0.2);
+}
+
+.container .timelineContainer:nth-child(2) .accordionContainer {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.container .timelineContainer:nth-child(4) .accordionContainer {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.content {
+  padding-top: 1.25rem 0.56rem;
+}
+.stateContainer {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: baseline;
+}
+.state {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #003032;
+  letter-spacing: 0.0025em;
+}
+
+.stateDescription {
+  color: #003032;
+  opacity: 0.6;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.statusMajorContainer,
+.statusMinorContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  height: 100%;
+}
+
+.statusMajor,
+.statusMinor {
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  color: #9d9d9d;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.5rem;
+  line-height: 10px;
+  padding: 1.5px 4px;
+  margin: 0 0 0 0;
+}
+
+.statusMajor {
+  font-style: normal;
+  background-color: #98ac6d;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.81rem;
+  line-height: 9px;
+  padding: 4px 4.5px;
+  margin: 7px 0;
+}
+
+.statusLine,
+.statusLineMinor,
+.statusLineSmall {
+  width: 1.375px;
+  flex: 1 1 auto;
+  background: #a7bc76;
+}
+
+.statusLineMinor {
+  background-color: #e6e6e6;
+}
+
+.statusLineSmall {
+  flex: 0 1 1.6rem;
+}
+
+.statusLineMinor {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 2.5px;
+}
+
+.timelineMinor {
+  padding-top: 3px;
+}
+
+.stateContentContainer {
+  margin-left: 6px;
+  margin-bottom: 0.5rem;
+}
