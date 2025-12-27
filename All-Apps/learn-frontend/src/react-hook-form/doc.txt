@@ -1,0 +1,14 @@
+WHAT PROBLEM DOES REACT HOOK FORM SOLVE?
+
+Traditional forms:
+- useState per field
+- re-render on every keystroke
+- complex validation logic
+- hard to scale
+
+React Hook Form:
+- uses uncontrolled inputs
+- relies on refs
+- minimal re-renders
+- clean validation API
+- scalable for large forms
